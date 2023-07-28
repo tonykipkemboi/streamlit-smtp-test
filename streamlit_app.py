@@ -13,8 +13,10 @@ import streamlit as st
 import smtplib
 from email.mime.text import MIMEText
 
+st.title('Send Streamlit SMTP Email 💌 🚀')
+
 st.markdown("""
-**Enter your email, subject, and email bbody then hit send to receive an email from `summittradingcard@gmail.com`!**
+**Enter your email, subject, and email body then hit send to receive an email from `summittradingcard@gmail.com`!**
 """)
 
 # Taking inputs
