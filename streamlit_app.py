@@ -13,6 +13,10 @@ import streamlit as st
 import smtplib
 from email.mime.text import MIMEText
 
+st.markdown("""
+**Enter your email, subject, and email bbody then hit send to receive an email from `summittradingcard@gmail.com`!**
+""")
+
 # Taking inputs
 email_sender = st.text_input('From', 'summittradingcard@gmail.com', disabled=True)
 email_receiver = st.text_input('To')
