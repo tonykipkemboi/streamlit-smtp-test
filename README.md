@@ -34,9 +34,13 @@ If you're using Gmail and have two-step verification enabled, your regular passw
 Instead, generate an app-specific password:
 
 🚶‍♂️ Head over to your Google Account.
+
 🖱️ On the left navigation panel, click on `Security`.
+
 🔐 Under `Signing in to Google`, select `App Passwords`. You might need to sign in again.
+
 📱 At the bottom, choose the app and device you want the app password for, then select `Generate`.
+
 🎉 Use this app password in the Streamlit app.
 
 ## Troubleshooting 🚑
